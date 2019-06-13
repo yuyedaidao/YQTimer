@@ -17,6 +17,7 @@ open class YQTimer {
     var endDate: Date?
     public var timeIntervalObserver: ((TimeInterval) -> Void)?
     public var binder: YQTimerBinder?
+    public init(){}
     open func start() {
         displayLink?.invalidate()
         displayLink = CADisplayLink(target: self, selector: #selector(displayLinkHandler(_:)))
