@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YQTimer'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'YQTimer.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'YQTimer/Classes/**/*'
   
   # s.resource_bundles = {
