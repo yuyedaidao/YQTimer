@@ -21,6 +21,11 @@ open class YQTimer {
     open func start() {
         displayLink?.invalidate()
         displayLink = CADisplayLink(target: self, selector: #selector(displayLinkHandler(_:)))
+        if #available(iOS 10.0, *) {
+            displayLink?.preferredFramesPerSecond = 15
+        } else {
+            displayLink?.frameInterval = 4
+        }
         pauseDate = nil
         startDate = Date()
         timeInterval = 0

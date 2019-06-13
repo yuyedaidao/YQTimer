@@ -30,7 +30,7 @@ open class YQTimerLabel: UILabel {
             var minute = duration / 60
             let hour = minute / 60
             minute = minute % 60
-            text = String(format: "%2d:%2d:%2d", hour, minute, second)
+            text = String(format: "%02d:%02d:%02d", hour, minute, second)
         }
     }
 }
