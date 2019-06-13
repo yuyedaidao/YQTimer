@@ -1,5 +1,5 @@
 import XCTest
-@testable import YQTimer
+@testable import YQTimerLabel
 
 class Tests: XCTestCase {
     
