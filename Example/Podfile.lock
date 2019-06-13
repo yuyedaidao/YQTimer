@@ -1,0 +1,16 @@
+PODS:
+  - YQTimer (0.1.0)
+
+DEPENDENCIES:
+  - YQTimer (from `../`)
+
+EXTERNAL SOURCES:
+  YQTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YQTimer: 8bb178f92116f9b0d3b7cf115bf77e4797545b72
+
+PODFILE CHECKSUM: eecba7e4921ca577085f0b345190ca621141f574
+
+COCOAPODS: 1.7.1
