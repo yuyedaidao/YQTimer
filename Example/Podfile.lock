@@ -1,5 +1,5 @@
 PODS:
-  - YQTimer (0.1.0)
+  - YQTimer (0.1.1)
 
 DEPENDENCIES:
   - YQTimer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQTimer: 8bb178f92116f9b0d3b7cf115bf77e4797545b72
+  YQTimer: 10659d39ce9090dd732eb8fc86b32fa4a6cd7469
 
 PODFILE CHECKSUM: eecba7e4921ca577085f0b345190ca621141f574
 
